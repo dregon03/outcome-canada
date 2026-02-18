@@ -1,5 +1,5 @@
 {
-  "_fetched_at": "2026-02-11T20:15:29.344515+00:00",
+  "_fetched_at": "2026-02-18T22:22:14.132529+00:00",
   "_count": 27,
   "metrics": {
     "pm_unemployment": {
@@ -112,7 +112,7 @@
     },
     "sidhu_fdi": {
       "value": "$18.2B",
-      "detail": "↓ 32.8% year over year",
+      "detail": "↓ 39.4% year over year",
       "detail_color": "negative",
       "period": "2025-Q3"
     },
