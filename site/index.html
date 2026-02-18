@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outcome Canada — Canadian Economic & Demographic Indicators</title>
+    <meta name="description" content="Latest available data on Canadian economic, social, and demographic indicators from Statistics Canada.">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/Icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/Icon2.png">
+    <link rel="apple-touch-icon" href="img/Icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="header-inner">
+        <a href="index.html" class="logo">
+            <img src="img/Full Logo.png" alt="Outcome Canada" class="logo-img">
+            <span class="logo-text">Outcome Canada</span>
+        </a>
+        <nav>
+            <a href="index.html" class='active'>Dashboard</a>
+            <a href="ministers.html" >Ministers</a>
+            <a href="about.html" >About</a>
+            <a href="contact.html" >Contact</a>
+        </nav>
+    </div>
+</header>
+
+<div class="hero">
+    <div class="hero-inner">
+        <h1>Canada &mdash; Economic & Demographic Dashboard</h1>
+        <p>Latest available data on key Canadian economic, social, and demographic indicators
+           from Statistics Canada.</p>
+        <div class="update-date">Last updated: February 11, 2026</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="summary-grid">
+        <a href="indicators/gdp.html" class="summary-card economic growth">
+            <div class="label">Real GDP Growth</div>
+            <div class="value">$2.33T</div>
+            <div class="detail positive">↑ 0.64% year over year</div>
+            <div class="period">2025-11 &middot; Monthly</div>
+        </a>
+        <a href="indicators/gdp_percapita.html" class="summary-card economic growth">
+            <div class="label">GDP per Capita</div>
+            <div class="value">$60,071</div>
+            <div class="detail positive">↑ 0.48% year over year</div>
+            <div class="period">2025-Q3 &middot; Quarterly</div>
+        </a>
+        <a href="indicators/unemployment.html" class="summary-card labour market">
+            <div class="label">Unemployment Rate</div>
+            <div class="value">6.5%</div>
+            <div class="detail positive">↓ 0.2 pp year over year</div>
+            <div class="period">2026-01 &middot; Monthly</div>
+        </a>
+        <a href="indicators/employment_rate.html" class="summary-card labour market">
+            <div class="label">Employment Rate</div>
+            <div class="value">60.8%</div>
+            <div class="detail negative">↓ 0.3 pp year over year</div>
+            <div class="period">2026-01 &middot; Monthly</div>
+        </a>
+        <a href="indicators/participation_rate.html" class="summary-card labour market">
+            <div class="label">Participation Rate</div>
+            <div class="value">65.0%</div>
+            <div class="detail negative">↓ 0.5 pp year over year</div>
+            <div class="period">2026-01 &middot; Monthly</div>
+        </a>
+        <a href="indicators/wages.html" class="summary-card labour market">
+            <div class="label">Average Weekly Earnings</div>
+            <div class="value">$1,317</div>
+            <div class="detail positive">↑ 2.45% year over year</div>
+            <div class="period">2025-11 &middot; Monthly</div>
+        </a>
+        <a href="indicators/hours_worked.html" class="summary-card labour market">
+            <div class="label">Average Weekly Hours</div>
+            <div class="value">31.2 hrs</div>
+            <div class="detail neutral">↓ 0.32% year over year</div>
+            <div class="period">2025-11 &middot; Monthly</div>
+        </a>
+        <a href="indicators/ei.html" class="summary-card labour market">
+            <div class="label">EI Beneficiaries</div>
+            <div class="value">566K</div>
+            <div class="detail negative">↑ 16.09% year over year</div>
+            <div class="period">2025-11 &middot; Monthly</div>
+        </a>
+        <a href="indicators/jobvacancy.html" class="summary-card labour market">
+            <div class="label">Job Vacancy Rate</div>
+            <div class="value">2.6%</div>
+            <div class="detail neutral">↓ 0.3 pp year over year</div>
+            <div class="period">2025-11 &middot; Monthly</div>
+        </a>
+        <a href="indicators/inflation.html" class="summary-card prices & inflation">
+            <div class="label">CPI All-Items</div>
+            <div class="value">165.0</div>
+            <div class="detail negative">↑ 2.36% year over year</div>
+            <div class="period">2025-12 &middot; Monthly</div>
+        </a>
+        <a href="indicators/cpi_shelter.html" class="summary-card prices & inflation">
+            <div class="label">CPI Shelter</div>
+            <div class="value">189.7</div>
+            <div class="detail negative">↑ 2.10% year over year</div>
+            <div class="period">2025-12 &middot; Monthly</div>
+        </a>
+        <a href="indicators/cpi_food.html" class="summary-card prices & inflation">
+            <div class="label">CPI Food</div>
+            <div class="value">199.7</div>
+            <div class="detail negative">↑ 6.22% year over year</div>
+            <div class="period">2025-12 &middot; Monthly</div>
+        </a>
+        <a href="indicators/cpi_transport.html" class="summary-card prices & inflation">
+            <div class="label">CPI Transportation</div>
+            <div class="value">172.6</div>
+            <div class="detail positive">↓ 0.46% year over year</div>
+            <div class="period">2025-12 &middot; Monthly</div>
+        </a>
+        <a href="indicators/housing.html" class="summary-card housing">
+            <div class="label">New Housing Price Index</div>
+            <div class="value">122.0</div>
+            <div class="detail neutral">↓ 2.01% year over year</div>
+            <div class="period">2025-12 &middot; Monthly</div>
+        </a>
+        <a href="indicators/housing_starts.html" class="summary-card housing">
+            <div class="label">Housing Starts</div>
+            <div class="value">282K</div>
+            <div class="detail positive">↑ 21.41% year over year</div>
+            <div class="period">2025-12 &middot; Monthly</div>
+        </a>
+        <a href="indicators/trade.html" class="summary-card trade & business">
+            <div class="label">Trade Balance</div>
+            <div class="value">C$-2.2B</div>
+            <div class="detail negative">↓ C$1.6B year over year</div>
+            <div class="period">2025-11 &middot; Monthly</div>
+        </a>
+        <a href="indicators/exports.html" class="summary-card trade & business">
+            <div class="label">Merchandise Exports</div>
+            <div class="value">C$63.9B</div>
+            <div class="detail negative">↓ 3.13% year over year</div>
+            <div class="period">2025-11 &middot; Monthly</div>
+        </a>
+        <a href="indicators/imports.html" class="summary-card trade & business">
+            <div class="label">Merchandise Imports</div>
+            <div class="value">C$66.1B</div>
+            <div class="detail neutral">↓ 0.72% year over year</div>
+            <div class="period">2025-11 &middot; Monthly</div>
+        </a>
+        <a href="indicators/retail.html" class="summary-card trade & business">
+            <div class="label">Retail Sales</div>
+            <div class="value">C$70.4B</div>
+            <div class="detail positive">↑ 3.10% year over year</div>
+            <div class="period">2025-11 &middot; Monthly</div>
+        </a>
+        <a href="indicators/manufacturing.html" class="summary-card trade & business">
+            <div class="label">Manufacturing Sales</div>
+            <div class="value">C$70.8B</div>
+            <div class="detail negative">↓ 1.09% year over year</div>
+            <div class="period">2025-11 &middot; Monthly</div>
+        </a>
+        <a href="indicators/business_investment.html" class="summary-card trade & business">
+            <div class="label">Business Investment</div>
+            <div class="value">C$209.7B</div>
+            <div class="detail positive">↑ 0.04% year over year</div>
+            <div class="period">2025-Q3 &middot; Quarterly</div>
+        </a>
+        <a href="indicators/policy_rate.html" class="summary-card financial">
+            <div class="label">BoC Policy Rate</div>
+            <div class="value">2.2%</div>
+            <div class="detail neutral">↓ 0.8 pp year over year</div>
+            <div class="period">2026-02-05 &middot; Daily</div>
+        </a>
+        <a href="indicators/bond_5y.html" class="summary-card financial">
+            <div class="label">5-Year Bond Yield</div>
+            <div class="value">2.9%</div>
+            <div class="detail neutral">↓ 0.1 pp year over year</div>
+            <div class="period">2026-02-05 &middot; Daily</div>
+        </a>
+        <a href="indicators/bond_10y.html" class="summary-card financial">
+            <div class="label">10-Year Bond Yield</div>
+            <div class="value">3.4%</div>
+            <div class="detail neutral">↑ 0.1 pp year over year</div>
+            <div class="period">2026-02-05 &middot; Daily</div>
+        </a>
+        <a href="indicators/population.html" class="summary-card demographics">
+            <div class="label">Total Population</div>
+            <div class="value">41.58M</div>
+            <div class="detail neutral">↑ 0.20% year over year</div>
+            <div class="period">2025-Q4 &middot; Quarterly</div>
+        </a>
+        <a href="indicators/immigration.html" class="summary-card demographics">
+            <div class="label">Immigrants</div>
+            <div class="value">102.9K</div>
+            <div class="detail neutral">↓ 17.22% year over year</div>
+            <div class="period">2025-Q3 &middot; Quarterly</div>
+        </a>
+        <a href="indicators/emigration.html" class="summary-card demographics">
+            <div class="label">Emigrants</div>
+            <div class="value">41.2K</div>
+            <div class="detail neutral">↑ 0.94% year over year</div>
+            <div class="period">2025-Q3 &middot; Quarterly</div>
+        </a>
+
+    </div>
+
+    <div class="category-section">
+        <div class="category-header">
+            <span class="category-dot" style="background:{'color': '#1a5276', 'order': 1}"></span>
+            Economic Growth Indicators
+        </div>
+        <table class="indicator-table">
+            <thead>
+                <tr>
+                    <th>Indicator</th>
+                    <th>Value</th>
+                    <th>Y/Y Change</th>
+                    <th>Period</th>
+                    <th>Freq</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr onclick="window.location='indicators/gdp.html'">
+                <td class="name-cell"><a href="indicators/gdp.html">Real GDP Growth</a></td>
+                <td class="value-cell">$2.33T</td>
+                <td class="positive">↑ 0.64%</td>
+                <td class="period-cell">2025-11</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/gdp_percapita.html'">
+                <td class="name-cell"><a href="indicators/gdp_percapita.html">GDP per Capita</a></td>
+                <td class="value-cell">$60,071</td>
+                <td class="positive">↑ 0.48%</td>
+                <td class="period-cell">2025-Q3</td>
+                <td class="freq-cell">Quarterly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="category-section">
+        <div class="category-header">
+            <span class="category-dot" style="background:{'color': '#7d3c98', 'order': 2}"></span>
+            Labour Market Indicators
+        </div>
+        <table class="indicator-table">
+            <thead>
+                <tr>
+                    <th>Indicator</th>
+                    <th>Value</th>
+                    <th>Y/Y Change</th>
+                    <th>Period</th>
+                    <th>Freq</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr onclick="window.location='indicators/unemployment.html'">
+                <td class="name-cell"><a href="indicators/unemployment.html">Unemployment Rate</a></td>
+                <td class="value-cell">6.5%</td>
+                <td class="positive">↓ 0.2 pp</td>
+                <td class="period-cell">2026-01</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/employment_rate.html'">
+                <td class="name-cell"><a href="indicators/employment_rate.html">Employment Rate</a></td>
+                <td class="value-cell">60.8%</td>
+                <td class="negative">↓ 0.3 pp</td>
+                <td class="period-cell">2026-01</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/participation_rate.html'">
+                <td class="name-cell"><a href="indicators/participation_rate.html">Participation Rate</a></td>
+                <td class="value-cell">65.0%</td>
+                <td class="negative">↓ 0.5 pp</td>
+                <td class="period-cell">2026-01</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/wages.html'">
+                <td class="name-cell"><a href="indicators/wages.html">Average Weekly Earnings</a></td>
+                <td class="value-cell">$1,317</td>
+                <td class="positive">↑ 2.45%</td>
+                <td class="period-cell">2025-11</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/hours_worked.html'">
+                <td class="name-cell"><a href="indicators/hours_worked.html">Average Weekly Hours</a></td>
+                <td class="value-cell">31.2 hrs</td>
+                <td class="neutral">↓ 0.32%</td>
+                <td class="period-cell">2025-11</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/ei.html'">
+                <td class="name-cell"><a href="indicators/ei.html">EI Beneficiaries</a></td>
+                <td class="value-cell">566K</td>
+                <td class="negative">↑ 16.09%</td>
+                <td class="period-cell">2025-11</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/jobvacancy.html'">
+                <td class="name-cell"><a href="indicators/jobvacancy.html">Job Vacancy Rate</a></td>
+                <td class="value-cell">2.6%</td>
+                <td class="neutral">↓ 0.3 pp</td>
+                <td class="period-cell">2025-11</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="category-section">
+        <div class="category-header">
+            <span class="category-dot" style="background:{'color': '#c0392b', 'order': 3}"></span>
+            Prices & Inflation Indicators
+        </div>
+        <table class="indicator-table">
+            <thead>
+                <tr>
+                    <th>Indicator</th>
+                    <th>Value</th>
+                    <th>Y/Y Change</th>
+                    <th>Period</th>
+                    <th>Freq</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr onclick="window.location='indicators/inflation.html'">
+                <td class="name-cell"><a href="indicators/inflation.html">CPI All-Items</a></td>
+                <td class="value-cell">165.0</td>
+                <td class="negative">↑ 2.36%</td>
+                <td class="period-cell">2025-12</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/cpi_shelter.html'">
+                <td class="name-cell"><a href="indicators/cpi_shelter.html">CPI Shelter</a></td>
+                <td class="value-cell">189.7</td>
+                <td class="negative">↑ 2.10%</td>
+                <td class="period-cell">2025-12</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/cpi_food.html'">
+                <td class="name-cell"><a href="indicators/cpi_food.html">CPI Food</a></td>
+                <td class="value-cell">199.7</td>
+                <td class="negative">↑ 6.22%</td>
+                <td class="period-cell">2025-12</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/cpi_transport.html'">
+                <td class="name-cell"><a href="indicators/cpi_transport.html">CPI Transportation</a></td>
+                <td class="value-cell">172.6</td>
+                <td class="positive">↓ 0.46%</td>
+                <td class="period-cell">2025-12</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="category-section">
+        <div class="category-header">
+            <span class="category-dot" style="background:{'color': '#d68910', 'order': 4}"></span>
+            Housing Indicators
+        </div>
+        <table class="indicator-table">
+            <thead>
+                <tr>
+                    <th>Indicator</th>
+                    <th>Value</th>
+                    <th>Y/Y Change</th>
+                    <th>Period</th>
+                    <th>Freq</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr onclick="window.location='indicators/housing.html'">
+                <td class="name-cell"><a href="indicators/housing.html">New Housing Price Index</a></td>
+                <td class="value-cell">122.0</td>
+                <td class="neutral">↓ 2.01%</td>
+                <td class="period-cell">2025-12</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/housing_starts.html'">
+                <td class="name-cell"><a href="indicators/housing_starts.html">Housing Starts</a></td>
+                <td class="value-cell">282K</td>
+                <td class="positive">↑ 21.41%</td>
+                <td class="period-cell">2025-12</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="category-section">
+        <div class="category-header">
+            <span class="category-dot" style="background:{'color': '#117864', 'order': 5}"></span>
+            Trade & Business Indicators
+        </div>
+        <table class="indicator-table">
+            <thead>
+                <tr>
+                    <th>Indicator</th>
+                    <th>Value</th>
+                    <th>Y/Y Change</th>
+                    <th>Period</th>
+                    <th>Freq</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr onclick="window.location='indicators/trade.html'">
+                <td class="name-cell"><a href="indicators/trade.html">Trade Balance</a></td>
+                <td class="value-cell">C$-2.2B</td>
+                <td class="negative">↓ C$1.6B</td>
+                <td class="period-cell">2025-11</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/exports.html'">
+                <td class="name-cell"><a href="indicators/exports.html">Merchandise Exports</a></td>
+                <td class="value-cell">C$63.9B</td>
+                <td class="negative">↓ 3.13%</td>
+                <td class="period-cell">2025-11</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/imports.html'">
+                <td class="name-cell"><a href="indicators/imports.html">Merchandise Imports</a></td>
+                <td class="value-cell">C$66.1B</td>
+                <td class="neutral">↓ 0.72%</td>
+                <td class="period-cell">2025-11</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/retail.html'">
+                <td class="name-cell"><a href="indicators/retail.html">Retail Sales</a></td>
+                <td class="value-cell">C$70.4B</td>
+                <td class="positive">↑ 3.10%</td>
+                <td class="period-cell">2025-11</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/manufacturing.html'">
+                <td class="name-cell"><a href="indicators/manufacturing.html">Manufacturing Sales</a></td>
+                <td class="value-cell">C$70.8B</td>
+                <td class="negative">↓ 1.09%</td>
+                <td class="period-cell">2025-11</td>
+                <td class="freq-cell">Monthly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/business_investment.html'">
+                <td class="name-cell"><a href="indicators/business_investment.html">Business Investment</a></td>
+                <td class="value-cell">C$209.7B</td>
+                <td class="positive">↑ 0.04%</td>
+                <td class="period-cell">2025-Q3</td>
+                <td class="freq-cell">Quarterly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="category-section">
+        <div class="category-header">
+            <span class="category-dot" style="background:{'color': '#6c3483', 'order': 6}"></span>
+            Financial Indicators
+        </div>
+        <table class="indicator-table">
+            <thead>
+                <tr>
+                    <th>Indicator</th>
+                    <th>Value</th>
+                    <th>Y/Y Change</th>
+                    <th>Period</th>
+                    <th>Freq</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr onclick="window.location='indicators/policy_rate.html'">
+                <td class="name-cell"><a href="indicators/policy_rate.html">BoC Policy Rate</a></td>
+                <td class="value-cell">2.2%</td>
+                <td class="neutral">↓ 0.8 pp</td>
+                <td class="period-cell">2026-02-05</td>
+                <td class="freq-cell">Daily</td>
+                <td class="period-cell">Bank of Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/bond_5y.html'">
+                <td class="name-cell"><a href="indicators/bond_5y.html">5-Year Bond Yield</a></td>
+                <td class="value-cell">2.9%</td>
+                <td class="neutral">↓ 0.1 pp</td>
+                <td class="period-cell">2026-02-05</td>
+                <td class="freq-cell">Daily</td>
+                <td class="period-cell">Bank of Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/bond_10y.html'">
+                <td class="name-cell"><a href="indicators/bond_10y.html">10-Year Bond Yield</a></td>
+                <td class="value-cell">3.4%</td>
+                <td class="neutral">↑ 0.1 pp</td>
+                <td class="period-cell">2026-02-05</td>
+                <td class="freq-cell">Daily</td>
+                <td class="period-cell">Bank of Canada</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div class="category-section">
+        <div class="category-header">
+            <span class="category-dot" style="background:{'color': '#1e8449', 'order': 7}"></span>
+            Demographics Indicators
+        </div>
+        <table class="indicator-table">
+            <thead>
+                <tr>
+                    <th>Indicator</th>
+                    <th>Value</th>
+                    <th>Y/Y Change</th>
+                    <th>Period</th>
+                    <th>Freq</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr onclick="window.location='indicators/population.html'">
+                <td class="name-cell"><a href="indicators/population.html">Total Population</a></td>
+                <td class="value-cell">41.58M</td>
+                <td class="neutral">↑ 0.20%</td>
+                <td class="period-cell">2025-Q4</td>
+                <td class="freq-cell">Quarterly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/immigration.html'">
+                <td class="name-cell"><a href="indicators/immigration.html">Immigrants</a></td>
+                <td class="value-cell">102.9K</td>
+                <td class="neutral">↓ 17.22%</td>
+                <td class="period-cell">2025-Q3</td>
+                <td class="freq-cell">Quarterly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+            <tr onclick="window.location='indicators/emigration.html'">
+                <td class="name-cell"><a href="indicators/emigration.html">Emigrants</a></td>
+                <td class="value-cell">41.2K</td>
+                <td class="neutral">↑ 0.94%</td>
+                <td class="period-cell">2025-Q3</td>
+                <td class="freq-cell">Quarterly</td>
+                <td class="period-cell">Statistics Canada</td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<footer>
+    <p>Outcome Canada &mdash; Canadian Economic, Social & Demographic Data</p>
+    <p style="margin-top:4px">
+        Official data from Statistics Canada.
+    </p>
+    <p style="margin-top:4px; font-size:11px; opacity:0.7">
+        Last updated: 2026-02-11. Data shown represents the latest available official statistics.
+    </p>
+</footer>
+</body>
+</html>

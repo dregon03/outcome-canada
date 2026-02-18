@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw StatCan bulk download zips (not needed — workflow fetches via API)
+*.zip
+
+# Raw extracted StatCan CSV directories (not needed — workflow fetches via API)
+12-10-0011/
+20-10-0001/
+20-10-0015/
+23-10-0056/
+23-10-0058/
+23-10-0142/
+23-10-0217/
+23-10-0219/
+23-10-0220/
+23-10-0221/
+23-10-0251/
+38-10-0252/
+38-10-0254/
+
+# Duplicate author photo at root (already in site/img/)
+Author Photo.png
+
+# Windows reserved device name (created accidentally)
+nul

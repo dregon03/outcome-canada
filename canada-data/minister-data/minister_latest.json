@@ -1,0 +1,168 @@
+{
+  "_fetched_at": "2026-02-11T20:15:29.344515+00:00",
+  "_count": 27,
+  "metrics": {
+    "pm_unemployment": {
+      "value": "6.5%",
+      "detail": "↓ 0.2 pp year over year",
+      "detail_color": "positive",
+      "period": "2026-01"
+    },
+    "pm_gdp_percapita": {
+      "value": "$60,071",
+      "detail": "↑ 0.5% quarter over quarter",
+      "detail_color": "positive",
+      "period": "2025-Q3"
+    },
+    "hajdu_employment": {
+      "value": "83.3%",
+      "detail": "↓ 0.3 pp year over year",
+      "detail_color": "negative",
+      "period": "2026-01"
+    },
+    "hajdu_youth": {
+      "value": "54.6%",
+      "detail": "↑ 0.2 pp year over year",
+      "detail_color": "positive",
+      "period": "2026-01"
+    },
+    "valdez_female_unemployment": {
+      "value": "6.3%",
+      "detail": "↓ 0.1 pp year over year",
+      "detail_color": "positive",
+      "period": "2026-01"
+    },
+    "leblanc_exports_us": {
+      "value": "$43.7B",
+      "detail": "↓ 13.3% year over year",
+      "detail_color": "negative",
+      "period": "2025-11"
+    },
+    "miller_immersion": {
+      "value": "477,105",
+      "detail": "↑ 0.6% year over year",
+      "detail_color": "positive",
+      "period": "2023/2024"
+    },
+    "miller_culture_gdp": {
+      "value": "$19.1B",
+      "detail": "↑ 0.2% year over year",
+      "detail_color": "positive",
+      "period": "2025-11"
+    },
+    "miller_culture_employment": {
+      "value": "882K",
+      "detail": "↑ 3.6% year over year",
+      "detail_color": "positive",
+      "period": "2026-01"
+    },
+    "fraser_disposition": {
+      "value": "189 days",
+      "detail": "↓ 6.0% year over year",
+      "detail_color": "positive",
+      "period": "2023/2024"
+    },
+    "anandasangaree_hatecrimes": {
+      "value": "4,882",
+      "detail": "↑ 1.1% year over year",
+      "detail_color": "negative",
+      "period": "2024"
+    },
+    "anandasangaree_homicides": {
+      "value": "788",
+      "detail": "↓ 1.0% year over year",
+      "detail_color": "positive",
+      "period": "2024"
+    },
+    "anandasangaree_autotheft": {
+      "value": "98,779",
+      "detail": "↓ 14.2% year over year",
+      "detail_color": "positive",
+      "period": "2024"
+    },
+    "anand_cdia": {
+      "value": "$2.47T",
+      "detail": "↑ 12.0% year over year",
+      "detail_color": "positive",
+      "period": "2024"
+    },
+    "anand_fdi": {
+      "value": "$1.50T",
+      "detail": "↑ 5.5% year over year",
+      "detail_color": "positive",
+      "period": "2024"
+    },
+    "leblanc_diversification": {
+      "value": "31.7%",
+      "detail": "↑ 8.0 pp year over year",
+      "detail_color": "positive",
+      "period": "2025-11"
+    },
+    "sidhu_diversification": {
+      "value": "31.7%",
+      "detail": "↑ 8.0 pp year over year",
+      "detail_color": "positive",
+      "period": "2025-11"
+    },
+    "joly_investment": {
+      "value": "$426.5B",
+      "detail": "↑ 1.2% year over year",
+      "detail_color": "positive",
+      "period": "2025-Q3"
+    },
+    "sidhu_fdi": {
+      "value": "$18.2B",
+      "detail": "↓ 32.8% year over year",
+      "detail_color": "negative",
+      "period": "2025-Q3"
+    },
+    "joly_productivity": {
+      "value": "$59.2/hr",
+      "detail": "↑ 0.2% year over year",
+      "detail_color": "positive",
+      "period": "2024"
+    },
+    "mackinnon_rail": {
+      "value": "31.4M t",
+      "detail": "↑ 0.5% year over year",
+      "detail_color": "positive",
+      "period": "2025-11"
+    },
+    "mackinnon_port": {
+      "value": "6.5M",
+      "detail": "↓ 0.3% year over year",
+      "detail_color": "negative",
+      "period": "2025-11"
+    },
+    "valdez_wagegap": {
+      "value": "12.6%",
+      "detail": "↑ 0.1 pp year over year",
+      "detail_color": "negative",
+      "period": "2025"
+    },
+    "chartrand_employment": {
+      "value": "63.9%",
+      "detail": "↓ 2.5 pp year over year",
+      "detail_color": "negative",
+      "period": "2026-01"
+    },
+    "chartrand_population": {
+      "value": "136,028",
+      "detail": "↑ 0.8% year over year",
+      "detail_color": "positive",
+      "period": "2025-Q4"
+    },
+    "macdonald_income": {
+      "value": "$9.4B",
+      "detail": "↓ 26.0% year over year",
+      "detail_color": "negative",
+      "period": "2024"
+    },
+    "macdonald_productivity": {
+      "value": "$24.1B",
+      "detail": "↑ 2.2% year over year",
+      "detail_color": "positive",
+      "period": "2025-Q3"
+    }
+  }
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manufacturing Sales — Canada | Outcome Canada</title>
+    <meta name="description" content="Manufacturing sales (shipments) measure industrial production and goods demand.">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/Icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/Icon2.png">
+    <link rel="apple-touch-icon" href="../img/Icon.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <div class="header-inner">
+        <a href="../index.html" class="logo">
+            <img src="../img/Full Logo.png" alt="Outcome Canada" class="logo-img">
+            <span class="logo-text">Outcome Canada</span>
+        </a>
+        <nav>
+            <a href="../index.html" >Dashboard</a>
+            <a href="../ministers.html" >Ministers</a>
+            <a href="../about.html" >About</a>
+            <a href="../contact.html" >Contact</a>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <div class="breadcrumb">
+        <a href="../index.html">Dashboard</a> &rsaquo; Manufacturing Sales
+    </div>
+
+    <div class="indicator-header">
+        <div class="indicator-title">
+            <h1>Manufacturing Sales</h1>
+            <div class="subtitle">Manufacturing sales (shipments) measure industrial production and goods demand.</div>
+        </div>
+        <div class="indicator-stats">
+    <div class="stat-box">
+        <div class="stat-label">% y/y</div>
+        <div class="stat-value negative">-1.09% year over year</div>
+    </div>    <div class="stat-box">
+        <div class="stat-label">Annualized</div>
+        <div class="stat-value ">-13.6%</div>
+    </div>    <div class="stat-box">
+        <div class="stat-label">Period</div>
+        <div class="stat-value" style="font-size:18px; color:var(--text)">2025-11</div>
+    </div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Historical Series (C$ Billions)</h2>
+        <div class="chart-wrapper">
+            <canvas id="indicatorChart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script>
+    const ctx = document.getElementById('indicatorChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ["2020-12", "2021-01", "2021-02", "2021-03", "2021-04", "2021-05", "2021-06", "2021-07", "2021-08", "2021-09", "2021-10", "2021-11", "2021-12", "2022-01", "2022-02", "2022-03", "2022-04", "2022-05", "2022-06", "2022-07", "2022-08", "2022-09", "2022-10", "2022-11", "2022-12", "2023-01", "2023-02", "2023-03", "2023-04", "2023-05", "2023-06", "2023-07", "2023-08", "2023-09", "2023-10", "2023-11", "2023-12", "2024-01", "2024-02", "2024-03", "2024-04", "2024-05", "2024-06", "2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11"],
+            datasets: [{
+                label: 'Manufacturing Sales',
+                data: [55.32, 57.53, 57.19, 59.42, 58.12, 58.56, 61.03, 60.24, 61.42, 60.05, 62.94, 64.65, 65.96, 65.46, 69.59, 72.47, 73.82, 73.06, 74.03, 72.62, 71.23, 71.54, 73.36, 73.01, 72.19, 74.14, 71.69, 72.19, 71.38, 72.64, 71.45, 71.82, 73.62, 73.68, 71.34, 72.07, 71.48, 70.18, 71.66, 70.57, 71.5, 71.71, 70.35, 71.55, 70.3, 70.15, 71.04, 71.54, 71.8, 72.79, 72.42, 71.28, 69.34, 68.29, 68.93, 70.51, 69.78, 72.36, 71.63, 70.77],
+                borderColor: '#1a5276',
+                backgroundColor: 'rgba(26, 82, 118, 0.1)',
+                fill: true,
+                tension: 0.3,
+                pointRadius: 0,
+                borderWidth: 2,
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    mode: 'index',
+                    intersect: false,
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        maxTicksLimit: 10,
+                        maxRotation: 0,
+                        autoSkip: true,
+                        autoSkipPadding: 40,
+                    },
+                    grid: { display: false }
+                },
+                y: {
+                    title: { display: true, text: 'C$ Billions' }, grid: { color: 'rgba(0,0,0,0.06)' }
+                }
+            },
+            interaction: {
+                mode: 'nearest',
+                axis: 'x',
+                intersect: false
+            }
+        }
+    });
+    </script>
+
+    <div class="methodology">
+        <h2>Data Source</h2>
+        <p>Monthly Survey of Manufacturing Table 16-10-0047-01. Shipments from food, chemicals, machinery, vehicles. Released 50 days after reference period.</p>
+        <div class="meta-grid">
+            <div class="meta-item">
+                <strong>Source</strong>
+                Statistics Canada — <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1610004701" target="_blank" rel="noopener">Table 16-10-0047-01</a>
+            </div>
+            <div class="meta-item">
+                <strong>Frequency</strong>
+                Monthly
+            </div>
+            <div class="meta-item">
+                <strong>Category</strong>
+                Trade & Business
+            </div>
+            <div class="meta-item">
+                <strong>Unit</strong>
+                % y/y
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Outcome Canada &mdash; Canadian Economic, Social & Demographic Data</p>
+    <p style="margin-top:4px">
+        Official data from Statistics Canada.
+    </p>
+    <p style="margin-top:4px; font-size:11px; opacity:0.7">
+        Last updated: 2026-02-11. Data shown represents the latest available official statistics.
+    </p>
+</footer>
+</body>
+</html>

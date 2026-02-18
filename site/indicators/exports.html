@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchandise Exports — Canada | Outcome Canada</title>
+    <meta name="description" content="Total value of goods exported from Canada, a key driver of economic growth.">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/Icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/Icon2.png">
+    <link rel="apple-touch-icon" href="../img/Icon.png">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <div class="header-inner">
+        <a href="../index.html" class="logo">
+            <img src="../img/Full Logo.png" alt="Outcome Canada" class="logo-img">
+            <span class="logo-text">Outcome Canada</span>
+        </a>
+        <nav>
+            <a href="../index.html" >Dashboard</a>
+            <a href="../ministers.html" >Ministers</a>
+            <a href="../about.html" >About</a>
+            <a href="../contact.html" >Contact</a>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <div class="breadcrumb">
+        <a href="../index.html">Dashboard</a> &rsaquo; Merchandise Exports
+    </div>
+
+    <div class="indicator-header">
+        <div class="indicator-title">
+            <h1>Merchandise Exports</h1>
+            <div class="subtitle">Total value of goods exported from Canada, a key driver of economic growth.</div>
+        </div>
+        <div class="indicator-stats">
+    <div class="stat-box">
+        <div class="stat-label">% y/y</div>
+        <div class="stat-value negative">-3.13% year over year</div>
+    </div>    <div class="stat-box">
+        <div class="stat-label">Annualized</div>
+        <div class="stat-value ">-28.8%</div>
+    </div>    <div class="stat-box">
+        <div class="stat-label">Period</div>
+        <div class="stat-value" style="font-size:18px; color:var(--text)">2025-11</div>
+    </div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <h2>Historical Series</h2>
+        <div class="chart-wrapper">
+            <canvas id="indicatorChart"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script>
+    const ctx = document.getElementById('indicatorChart').getContext('2d');
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ["2020-12", "2021-01", "2021-02", "2021-03", "2021-04", "2021-05", "2021-06", "2021-07", "2021-08", "2021-09", "2021-10", "2021-11", "2021-12", "2022-01", "2022-02", "2022-03", "2022-04", "2022-05", "2022-06", "2022-07", "2022-08", "2022-09", "2022-10", "2022-11", "2022-12", "2023-01", "2023-02", "2023-03", "2023-04", "2023-05", "2023-06", "2023-07", "2023-08", "2023-09", "2023-10", "2023-11", "2023-12", "2024-01", "2024-02", "2024-03", "2024-04", "2024-05", "2024-06", "2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11"],
+            datasets: [{
+                label: 'Merchandise Exports',
+                data: [47596.0, 51782.0, 50711.3, 50389.5, 49987.1, 49586.3, 53132.9, 53412.9, 53887.5, 52728.5, 56103.8, 58606.5, 58247.3, 58504.6, 61350.3, 64943.0, 65675.3, 71304.9, 69354.8, 66771.8, 65103.3, 65715.1, 65283.2, 64044.0, 64501.3, 65925.6, 63070.9, 63888.7, 64517.2, 63286.7, 60556.4, 61696.4, 65334.2, 66557.8, 66479.4, 65272.0, 63178.6, 61007.6, 65145.2, 63144.4, 65302.2, 63470.0, 65848.7, 65096.0, 64124.5, 63893.2, 64989.5, 66006.0, 69585.3, 72759.5, 68696.5, 67469.2, 60152.8, 61140.3, 61580.1, 62472.0, 60450.3, 64239.0, 65782.0, 63942.7],
+                borderColor: '#1a5276',
+                backgroundColor: 'rgba(26, 82, 118, 0.1)',
+                fill: true,
+                tension: 0.3,
+                pointRadius: 0,
+                borderWidth: 2,
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { display: false },
+                tooltip: {
+                    mode: 'index',
+                    intersect: false,
+                }
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        maxTicksLimit: 10,
+                        maxRotation: 0,
+                        autoSkip: true,
+                        autoSkipPadding: 40,
+                    },
+                    grid: { display: false }
+                },
+                y: {
+                    grid: { color: 'rgba(0,0,0,0.06)' }
+                }
+            },
+            interaction: {
+                mode: 'nearest',
+                axis: 'x',
+                intersect: false
+            }
+        }
+    });
+    </script>
+
+    <div class="methodology">
+        <h2>Data Source</h2>
+        <p>Export component from Table 12-10-0011-01. Balance of payments basis, seasonally adjusted.</p>
+        <div class="meta-grid">
+            <div class="meta-item">
+                <strong>Source</strong>
+                Statistics Canada — <a href="https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1210001101" target="_blank" rel="noopener">Table 12-10-0011-01</a>
+            </div>
+            <div class="meta-item">
+                <strong>Frequency</strong>
+                Monthly
+            </div>
+            <div class="meta-item">
+                <strong>Category</strong>
+                Trade & Business
+            </div>
+            <div class="meta-item">
+                <strong>Unit</strong>
+                % y/y
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Outcome Canada &mdash; Canadian Economic, Social & Demographic Data</p>
+    <p style="margin-top:4px">
+        Official data from Statistics Canada.
+    </p>
+    <p style="margin-top:4px; font-size:11px; opacity:0.7">
+        Last updated: 2026-02-11. Data shown represents the latest available official statistics.
+    </p>
+</footer>
+</body>
+</html>
