@@ -1,5 +1,5 @@
 {
-  "_fetched_at": "2026-02-18T22:34:37.780885+00:00",
+  "_fetched_at": "2026-02-19T14:48:05.620104+00:00",
   "_count": 27,
   "metrics": {
     "pm_unemployment": {
@@ -33,10 +33,10 @@
       "period": "2026-01"
     },
     "leblanc_exports_us": {
-      "value": "$43.7B",
-      "detail": "↓ 13.3% year over year",
+      "value": "$44.2B",
+      "detail": "↓ 16.7% year over year",
       "detail_color": "negative",
-      "period": "2025-11"
+      "period": "2025-12"
     },
     "miller_immersion": {
       "value": "477,105",
@@ -93,16 +93,16 @@
       "period": "2024"
     },
     "leblanc_diversification": {
-      "value": "31.7%",
-      "detail": "↑ 8.0 pp year over year",
+      "value": "32.6%",
+      "detail": "↑ 8.9 pp year over year",
       "detail_color": "positive",
-      "period": "2025-11"
+      "period": "2025-12"
     },
     "sidhu_diversification": {
-      "value": "31.7%",
-      "detail": "↑ 8.0 pp year over year",
+      "value": "32.6%",
+      "detail": "↑ 8.9 pp year over year",
       "detail_color": "positive",
-      "period": "2025-11"
+      "period": "2025-12"
     },
     "joly_investment": {
       "value": "$426.5B",
