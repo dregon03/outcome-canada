@@ -1,5 +1,5 @@
 {
-  "_fetched_at": "2026-02-23T14:47:06.246586+00:00",
+  "_fetched_at": "2026-02-24T14:51:19.473237+00:00",
   "_count": 27,
   "metrics": {
     "pm_unemployment": {
@@ -123,10 +123,10 @@
       "period": "2024"
     },
     "mackinnon_rail": {
-      "value": "31.4M t",
-      "detail": "↑ 0.5% year over year",
-      "detail_color": "positive",
-      "period": "2025-11"
+      "value": "31.0M t",
+      "detail": "↓ 2.0% year over year",
+      "detail_color": "negative",
+      "period": "2025-12"
     },
     "mackinnon_port": {
       "value": "6.5M",
