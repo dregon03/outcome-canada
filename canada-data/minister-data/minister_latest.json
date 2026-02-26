@@ -1,5 +1,5 @@
 {
-  "_fetched_at": "2026-02-25T14:51:31.659173+00:00",
+  "_fetched_at": "2026-02-26T14:50:41.964797+00:00",
   "_count": 27,
   "metrics": {
     "pm_unemployment": {
@@ -111,10 +111,10 @@
       "period": "2025-Q3"
     },
     "sidhu_fdi": {
-      "value": "$18.2B",
-      "detail": "↓ 39.4% year over year",
-      "detail_color": "negative",
-      "period": "2025-Q3"
+      "value": "$25.1B",
+      "detail": "↑ 3.8% year over year",
+      "detail_color": "positive",
+      "period": "2025-Q4"
     },
     "joly_productivity": {
       "value": "$59.2/hr",
@@ -129,10 +129,10 @@
       "period": "2025-12"
     },
     "mackinnon_port": {
-      "value": "6.5M",
-      "detail": "↓ 0.3% year over year",
+      "value": "7.3M",
+      "detail": "↓ 0.4% year over year",
       "detail_color": "negative",
-      "period": "2025-11"
+      "period": "2025-12"
     },
     "valdez_wagegap": {
       "value": "12.6%",
@@ -159,10 +159,10 @@
       "period": "2024"
     },
     "macdonald_productivity": {
-      "value": "$24.1B",
-      "detail": "↑ 2.2% year over year",
+      "value": "$27.5B",
+      "detail": "↑ 3.9% year over year",
       "detail_color": "positive",
-      "period": "2025-Q3"
+      "period": "2025-Q4"
     }
   }
 }
