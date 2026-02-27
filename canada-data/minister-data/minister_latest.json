@@ -1,5 +1,5 @@
 {
-  "_fetched_at": "2026-02-26T14:50:41.964797+00:00",
+  "_fetched_at": "2026-02-27T14:43:34.931354+00:00",
   "_count": 27,
   "metrics": {
     "pm_unemployment": {
@@ -9,10 +9,10 @@
       "period": "2026-01"
     },
     "pm_gdp_percapita": {
-      "value": "$60,071",
-      "detail": "↑ 0.5% quarter over quarter",
+      "value": "$60,184",
+      "detail": "↑ 0.0% quarter over quarter",
       "detail_color": "positive",
-      "period": "2025-Q3"
+      "period": "2025-Q4"
     },
     "hajdu_employment": {
       "value": "83.3%",
@@ -45,10 +45,10 @@
       "period": "2023/2024"
     },
     "miller_culture_gdp": {
-      "value": "$19.1B",
-      "detail": "↑ 0.2% year over year",
+      "value": "$19.5B",
+      "detail": "↑ 2.3% year over year",
       "detail_color": "positive",
-      "period": "2025-11"
+      "period": "2025-12"
     },
     "miller_culture_employment": {
       "value": "882K",
@@ -105,10 +105,10 @@
       "period": "2025-12"
     },
     "joly_investment": {
-      "value": "$426.5B",
-      "detail": "↑ 1.2% year over year",
-      "detail_color": "positive",
-      "period": "2025-Q3"
+      "value": "$424.9B",
+      "detail": "↓ 1.7% year over year",
+      "detail_color": "negative",
+      "period": "2025-Q4"
     },
     "sidhu_fdi": {
       "value": "$25.1B",
